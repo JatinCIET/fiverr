@@ -1,0 +1,38 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form{
+        width: 360px;
+        padding: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h1{
+            color: gray;
+            margin-bottom: 10px;
+        }
+
+        label{
+            color: gray;
+            font-size: 18px;
+        }
+
+        input{
+            padding: 15px;
+            border: 1px solid rgb(216, 214, 214);
+        }
+
+        button{
+            border: none;
+            padding: 15px;
+            color: white;
+            font-weight: 500;
+            font-size: 17px;
+            background-color: #1dbf73;
+            cursor: pointer;
+        }
+    }
+}
